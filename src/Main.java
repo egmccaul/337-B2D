@@ -8,6 +8,17 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String buffer = scanner.nextLine();
-        System.out.println("You have entered: " + buffer +" as your input.");
+        System.out.println("Binary: " + buffer + " represents the decimal: " + Binary2Decimal(buffer));
+    }
+
+    public static int Binary2Decimal(String binary){
+        int result  = 0; // Temporarily  holds result
+        for(int i = 0; i < binary.length(); i++)
+        {
+            int digit = Character.getNumericValue(binary.charAt(i));
+            int position  = binary.length() - i - 1;
+            result += digit * Math.pow(2,  position);
+        }
+        return result;
     }
 }
