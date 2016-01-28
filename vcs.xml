@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/egmccaul/337-B2D.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/egmccaul/CIT337-99Bottles.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\EM\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\Users\EM\Documents\CIT337\Assignment2" />
   </component>
 </application>
